@@ -19,7 +19,7 @@ export function MapSection() {
     const map = new mapboxgl.Map({
       container: mapContainer.current,
       style: 'mapbox://styles/mapbox/streets-v12',
-      center: [-74.5, 40],
+      center: [9.0578, 7.495],
       zoom: 9,
     });
     return () => map.remove();
