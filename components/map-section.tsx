@@ -331,8 +331,6 @@ export function MapSection({ selectedLocation, onLocationSelect }: MapSectionPro
               </div>
             </div>
           </div>
-
-          
           <div className="absolute top-4 left-4 bg-gray-800/90 backdrop-blur-sm rounded-lg p-2 border border-gray-600 z-[1000]">
             <span className="text-xs text-gray-300">
               {dataLoading ? "Loading..." : `${districtsData.length} Monitoring Stations`}
