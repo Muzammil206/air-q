@@ -44,7 +44,7 @@ export default function DashboardPage() {
               {/* Right column - Chart and AI Insights */}
               <div className="xl:col-span-2 space-y-6">
                 <ChartSection location={selectedLocation} gasType={selectedGas} dateRange={dateRange} />
-                <AIInsights location={selectedLocation} gasType={selectedGas} />
+                <AIInsights  location={selectedLocation} gasType={selectedGas}  />
               </div>
             </div>
           </main>

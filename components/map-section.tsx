@@ -193,14 +193,14 @@ export function MapSection({ selectedLocation, onLocationSelect }: MapSectionPro
         map.on("load", () => {
           if (!mounted) return
           setMapLoaded(true)
-          setIsLoading(false)
+          
         })
 
         mapInstanceRef.current = map
       } catch (error) {
         console.error("Error initializing map:", error)
         setDataError("Failed to initialize map. Please check your connection.")
-        setIsLoading(false)
+        
       }
     }
 
